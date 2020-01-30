@@ -20,7 +20,7 @@ spec:
             path: /var/run/docker.sock
       containers:
       - name: k8s-cleanup
-        image: onfido/k8s-cleanup
+        image: infra.docker.zooxlabs.com/docker-clean
         imagePullPolicy: Always
         resources:
           requests:
